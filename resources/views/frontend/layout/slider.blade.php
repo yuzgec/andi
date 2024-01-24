@@ -1,0 +1,83 @@
+<div id="home" class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" style="height: 100vh;">
+    <div class="owl-stage-outer">
+        <div class="owl-stage">
+
+            <!-- Carousel Slide 1 -->
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=1); background-size: cover; background-position: center;">
+                <div class="container position-relative z-index-3 h-100">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-lg-7 text-center">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                <div class="overflow-hidden mb-2">
+                                    <h2 class="position-relative text-color-primary text-5 line-height-5 font-weight-normal ls-0 px-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                        WELCOME, ENJOY THE ORIGINAL
+                                    </h2>
+                                </div>
+                                <div class="overflow-hidden mb-2">
+                                    <h1 class="text-color-light font-weight-extra-bold text-13 line-height-1 line-height-sm-3 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">FRESH PORTO COFFEE</h1>
+                                </div>
+                                <p class="text-4-5 text-color-light font-weight-light text-center px-lg-5 mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1800, 'minWindowWidth': 0, 'animationSpeed': 30}">The amazing flavors will blow your mind.</p>
+                                <a href="#about" data-hash data-hash-offset="0" data-hash-offset-lg="92" class="btn btn-primary btn-outline font-weight-bold text-color-light text-2 py-3 btn-px-4 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2700" data-plugin-options="{'minWindowWidth': 0}">LEARN ABOUT US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=1); background-size: cover; background-position: center;">
+                <div class="container position-relative z-index-3 h-100">
+                    <div class="row justify-content-center align-items-center h-100">
+                        <div class="col-lg-7 text-center">
+                            <div class="d-flex flex-column align-items-center justify-content-center h-100">
+                                <div class="overflow-hidden mb-2">
+                                    <h2 class="position-relative text-color-primary text-5 line-height-5 font-weight-normal ls-0 px-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                        WELCOME, ENJOY THE ORIGINAL
+                                    </h2>
+                                </div>
+                                <div class="overflow-hidden mb-2">
+                                    <h1 class="text-color-light font-weight-extra-bold text-13 line-height-1 line-height-sm-3 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">FRESH PORTO COFFEE</h1>
+                                </div>
+                                <p class="text-4-5 text-color-light font-weight-light text-center px-lg-5 mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1800, 'minWindowWidth': 0, 'animationSpeed': 30}">The amazing flavors will blow your mind.</p>
+                                <a href="#about" data-hash data-hash-offset="0" data-hash-offset-lg="92" class="btn btn-primary btn-outline font-weight-bold text-color-light text-2 py-3 btn-px-4 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2700" data-plugin-options="{'minWindowWidth': 0}">LEARN ABOUT US</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="owl-nav">
+        <button type="button" role="presentation" class="owl-prev"></button>
+        <button type="button" role="presentation" class="owl-next"></button>
+    </div>
+</div>
+
+<section class="looking-for custom-position-1 custom-md-border-top z-index-1">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-7">
+                <div class="looking-for-box">
+                    <h2>- <span class="text-1 custom-secondary-font">Are you looking for a</span><br>
+                    Business Plan Consultant?</h2>
+                    <p>Schedule your company strategy right session now</p>
+                </div>
+            </div>
+            <div class="col-md-3 d-flex justify-content-md-end mb-4 mb-md-0">
+                <a class="text-decoration-none" href="tel:{{ config('settings.telefon1') }}" target="_blank" title="Telefon">
+                    <span class="custom-call-to-action">
+                        <span class="action-title text-color-primary">Telefon</span>
+                        <span class="action-info text-color-light">{{ config('settings.telefon1') }}</span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <a class="text-decoration-none" href="mail:{{ config('settings.email1') }}" target="_blank" title="Email">
+                    <span class="custom-call-to-action">
+                        <span class="action-title text-color-primary">Email</span>
+                        <span class="action-info text-color-light">{{ config('settings.email1') }}</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
