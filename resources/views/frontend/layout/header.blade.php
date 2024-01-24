@@ -7,25 +7,25 @@
                         <div class="header-row">
                             <ul class="list list-unstyled list-inline mb-0">
                                 <li class="list-inline-item text-color-dark me-md-4 mb-0">
-                                    <i class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
-                                    <a href="tel:{{ config('settings.telefon1')}}" class="text-color-dark text-color-hover-primary text-decoration-none">
+                                    <i class="icons icon-phone text-white text-4 position-relative top-2 me-1"></i>
+                                    <a href="tel:{{ config('settings.telefon1')}}" class="text-white text-color-hover-primary text-decoration-none">
                                         <strong>{{ config('settings.telefon1')}}</strong>
                                     </a>
                                 </li>
-                                <li class="list-inline-item text-color-dark me-md-4 mb-0">
-                                    <i class="icons icon-phone text-color-primary text-4 position-relative top-2 me-1"></i>
-                                    <a href="tel:{{ config('settings.telefon2')}}" class="text-color-dark text-color-hover-primary text-decoration-none">
+                                <li class="list-inline-item text-white me-md-4 mb-0">
+                                    <i class="icons icon-phone text-white text-4 position-relative top-2 me-1"></i>
+                                    <a href="tel:{{ config('settings.telefon2')}}" class="text-whitetext-color-hover-primary text-decoration-none">
                                         <strong>{{ config('settings.telefon2')}}</strong>
                                     </a>
                                 </li>
                                 <li class="list-inline-item text-color-dark me-4 mb-0 d-none d-md-inline-block">
-                                    <i class="icons icon-envelope text-color-primary text-4 position-relative top-4 me-1"></i>
-                                    <a href="mailto: {{ config('settings.email1')}}" class="text-color-dark text-color-hover-primary text-decoration-none text-2">
+                                    <i class="icons icon-envelope text-white text-4 position-relative top-4 me-1"></i>
+                                    <a href="mailto: {{ config('settings.email1')}}" class="text-white text-color-hover-primary text-decoration-none text-2">
                                         {{ config('settings.email1')}}
                                     </a>
                                 </li>
-                                <li class="list-inline-item text-color-dark text-2 mb-0 d-none d-lg-inline-block">
-                                    <i class="icons icon-calendar text-color-primary text-3-5 position-relative top-1 me-1"></i>
+                                <li class="list-inline-item text-white text-2 mb-0 d-none d-lg-inline-block">
+                                    <i class="icons icon-calendar text-white text-3-5 position-relative top-1 me-1"></i>
                                     Mesai Saatleri
                                 </li>
                             </ul>
@@ -45,7 +45,7 @@
                                 <a class="dropdown-item text-1" href="#">FRA</a>
                                 <a class="dropdown-item text-1" href="#">ENG</a>
                             </div>
-                            <a href="{{ route('contactus')}}" class="btn btn-primary btn-px-4 py-3 font-weight-bold text-2 rounded-0 ms-lg-4">{{ __('site.teklifiste')}}</a>
+                            <a href="{{ route('contactus')}}" class="btn btn-danger btn-px-4 py-3 font-weight-bold text-2 rounded-0 ms-lg-4">{{ __('site.teklifiste')}}</a>
                         </div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
 
 
                                         <li class="dropdown dropdown-primary">
-                                            <a class="dropdown-toggle nav-link" href="demo-business-consulting-expertise.html">
+                                            <a class="dropdown-toggle nav-link" href="#">
                                                 ÇÖZÜMLERİMİZ
                                             </a>
                                             <ul class="dropdown-menu">
@@ -106,7 +106,7 @@
                                         </li>
 
                                         <li class="dropdown dropdown-primary">
-                                            <a class="dropdown-toggle nav-link" href="demo-business-consulting-expertise.html">
+                                            <a class="dropdown-toggle nav-link" href="#">
                                                 {{ __('site.urunler')}}
                                             </a>
                                             <ul class="dropdown-menu">
