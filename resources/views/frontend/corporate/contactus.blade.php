@@ -96,7 +96,7 @@ style="background-image: url(img/page-header/page-header-about-us.jpg);">
                 </div>
                 <div class="row">
                     <div class="form-group col">
-                        <input type="submit" value="Send Message" class="btn btn-primary btn-modern">
+                        <input type="submit" value="Mesajı Gönder" class="btn btn-primary btn-modern">
                     </div>
                 </div>
             </form>
