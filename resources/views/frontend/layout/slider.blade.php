@@ -32,18 +32,24 @@
             <div class="owl-item position-relative overlay overlay-show overlay-op-5" style="background-image: url(https://picsum.photos/1920/1080/?blur=1); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 h-100">
                     <div class="row justify-content-center align-items-center h-100">
-                        <div class="col-lg-7 text-center">
+                        <div class="col-lg-10 text-center">
                             <div class="d-flex flex-column align-items-center justify-content-center h-100">
                                 <div class="overflow-hidden mb-2">
-                                    <h2 class="position-relative text-color-primary text-5 line-height-5 font-weight-normal ls-0 px-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                        WELCOME, ENJOY THE ORIGINAL
+                                    <h2 class="position-relative text-white text-5 line-height-5 font-weight-normal ls-0 px-4 mb-0 appear-animation" 
+                                    data-appear-animation="maskUp" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                    {{config('settings.siteName')}}
                                     </h2>
                                 </div>
                                 <div class="overflow-hidden mb-2">
-                                    <h1 class="text-color-light font-weight-extra-bold text-13 line-height-1 line-height-sm-3 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">FRESH PORTO COFFEE</h1>
+                                    <h1 class="text-white font-weight-extra-bold text-13 line-height-1 line-height-sm-3 mb-0 appear-animation" 
+                                    data-appear-animation="maskUp" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">
+                                   {{config('settings.siteSlogan')}}</h1>
                                 </div>
-                                <p class="text-4-5 text-color-light font-weight-light text-center px-lg-5 mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 1800, 'minWindowWidth': 0, 'animationSpeed': 30}">The amazing flavors will blow your mind.</p>
-                                <a href="#about" data-hash data-hash-offset="0" data-hash-offset-lg="92" class="btn btn-primary btn-outline font-weight-bold text-color-light text-2 py-3 btn-px-4 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2700" data-plugin-options="{'minWindowWidth': 0}">LEARN ABOUT US</a>
+                                <a href="{{ route('contactus')}}" data-hash data-hash-offset="0" data-hash-offset-lg="92" 
+                                class="btn btn-primary btn-outline font-weight-bold text-color-light text-2 py-3 btn-px-4 mt-2 appear-animation" 
+                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="2700" data-plugin-options="{'minWindowWidth': 0}">
+                                İLETİŞİME GEÇ
+                            </a>
                             </div>
                         </div>
                     </div>
